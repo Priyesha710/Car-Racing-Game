@@ -94,4 +94,7 @@ class Player {
             CarsAtEnd: rankInput
         });
     }
+    static deletePlayersInfo(){
+        database.ref('players').remove();
+    }
 }
