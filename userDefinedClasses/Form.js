@@ -86,6 +86,8 @@ the form object.
       to zero in the program and in the database. */
       gameObj.updateState(0);
       playerObj.updateCount(0);
+        playerObj.deletePlayersInfo();
+        Player.updateCarsAtEnd(0);
     });
   }
 }
